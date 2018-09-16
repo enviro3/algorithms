@@ -1,0 +1,41 @@
+Pseudo Code for Three Daily Activities
+
+Brushing Teeth
+
+if decide to brush teeth
+  enter bathroom
+  pick up toothbrush
+  turn on sink and wet toothbrush
+  turn off sink
+  pick up toothpaste and unscrew cap
+  squeeze toothpaste onto toothbrush, put back
+  lift toothbrush to teeth
+  brush
+  spit
+  rinse
+  wash off toothbrush
+  return toothbrush to holder
+end
+
+Getting dressed
+
+if decide to get dressed
+  open closet
+  select clothes
+  take clothes off the hanger
+  put on clothes by putting limbs in the correct spaces
+  check in the mirror
+  close closet
+end
+
+Getting to work
+
+  Open door and exit
+  Close door and lock it
+  go down steps and walk to the train
+  get out train card and swipe in
+  get on train car
+  get off at proper stop
+  swipe out with train card
+  walk to office
+  
