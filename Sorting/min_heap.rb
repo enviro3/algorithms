@@ -119,7 +119,7 @@ class MinHeap
     if index >= @heap.length
       return
     end
-    puts @heap[index].to_s
+    @heap[index].to_s
     printIndex(findLeftIndex(index))
     printIndex(findRightIndex(index))
 

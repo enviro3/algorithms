@@ -18,5 +18,5 @@ Benchmark.bm do |x|
   x.report("append 50 items bucketSort"){ for i in 1..n do bucket_sort.push(i); end}
   x.report("append 50 items quickSort"){ for i in 1..n do quick_sort.push(i); end}
 
-  
+
 end

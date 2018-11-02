@@ -1,6 +1,17 @@
 def quick_sort(array)
-  pivot = array.last
-  partition_result = array.partition { |i| i <= pivot }
 
-  return partition_result.flatten
+  return [] if array.empty?
+      pivot = array.shift;
+      low = []
+      high = []
+      array.each do |i|
+
+        if i <= pivot
+          low.push(i)
+        else
+          high.push(i)
+        end
+      end
+      return quick_sort(low) + [pivot] + quick_sort(high)
+
 end
