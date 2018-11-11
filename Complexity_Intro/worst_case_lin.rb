@@ -13,7 +13,6 @@ def linear_search(array, n)
     end
   end
 
-
 end
 
 sample_array = [0,3,5,7,10,11,12,17,33,88]

@@ -1,17 +1,17 @@
-1) An algorithm that has an efficiency of O(1) is a racing car, and an algorithm that has O(2^n) is pedestrian.
+1)An algorithm that has an efficiency of O(1) is a racing car, and an algorithm that has O(2^n) is pedestrian.
 
-2) Binary search uses a sorted data set. The best case for binary search is to have the median of the data set selected in the first iteration and be the item you are searching for. Big-Ω would be O(1)
+2)Binary search uses a sorted data set. The best case for binary search is to have the median of the data set selected in the first iteration and be the item you are searching for. Big-Ω would be O(1)
 
-3) The worst case for Binary search is to go through multiple iterations and to be be left with one element in the end that is the item you are searching for. Big-O would be O(logn).
+3)The worst case for Binary search is to go through multiple iterations and to be be left with one element in the end that is the item you are searching for. Big-O would be O(logn).
 
-4) The bounded case for binary search would be the middle of the range from worse case to best case iterations.
+4)The bounded case for binary search would be the middle of the range from worse case to best case iterations.
 
-6) There is no limit (asymptote) presented by the graph here: https://www.evernote.com/l/Ac_kOlHAP5dN_oUmz_1IPaKEoXGhPKTUmMs
+6)There is no limit (asymptote) presented by the graph here: https://www.evernote.com/l/Ac_kOlHAP5dN_oUmz_1IPaKEoXGhPKTUmMs
 
-7) The Big-O of the above graph looks to be O(2^n).
+7)The Big-O of the above graph looks to be O(2^n).
 
-8) The Big-O of binary search is O(logn)
+8)The Big-O of binary search is O(logn)
 
-9) The Big-Ω of binary search is O(1), but would be highly unlikely.
+9)The Big-Ω of binary search is O(1), but would be highly unlikely.
 
-10) The Big-Ө of binary search would be somewhere between O(1) and O(logn).
+10)The Big-Ө of binary search would be somewhere between O(1) and O(logn).
