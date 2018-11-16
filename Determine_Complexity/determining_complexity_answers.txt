@@ -31,7 +31,7 @@ def find_largest(collection)
  largest
 end
 
-4) The Big-O of the following algorithm is O(n) because the recursive calls act like loops. Because there are two, time is 2n but we drop the constant to get O(n).
+4) The Big-O of the following algorithm is O(n^2) because the algorithm nearly doubles each time. Every action results in 2 more actions.
 
 def numbers(n)
  if (n == 0)
@@ -60,7 +60,7 @@ def iterative(n)
  num2
 end
 
-6) The Big-O of the following algorithm is O(n) because there is one while loop.
+6) The Big-O of the following algorithm is O(nlogn) because this is a sorting algorithm.
 
 def sort(collection, from=0, to=nil)
  if to == nil
