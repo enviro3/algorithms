@@ -31,7 +31,7 @@ def find_largest(collection)
  largest
 end
 
-4) The Big-O of the following algorithm is O(n^2) because the algorithm nearly doubles each time. Every action results in 2 more actions.
+4) The Big-O of the following algorithm is 2^n. Every action results in 2 more actions.
 
 def numbers(n)
  if (n == 0)
@@ -60,7 +60,7 @@ def iterative(n)
  num2
 end
 
-6) The Big-O of the following algorithm is O(nlogn) because this is a sorting algorithm.
+6) The average time complexity for quick sort is O(n log n) but the Big-O of the following sorting algorithm is O(n^2).
 
 def sort(collection, from=0, to=nil)
  if to == nil
