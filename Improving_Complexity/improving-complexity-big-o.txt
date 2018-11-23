@@ -1,0 +1,7 @@
+#This file contains the Big-O explanations of the following code version improvements: 1.Code complexity, 2. time complexity, and 3. space complexity.
+
+1) The Big-O of this version, seeking to improve code complexity, is _____ because ______.
+
+2) The Big-O of this version, seeking to improve time complexity, is _____ because ______.
+
+1) The Big-O of this version, seeking to improve space complexity, is _____ because ______.
