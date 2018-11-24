@@ -1,32 +1,29 @@
 # version three
 
-#This code has been rewritten to improve complexity performance
+#This code has been rewritten to improve space complexity performance
 
-# This method takes n arrays as input and combine them in sorted ascending  order
-def poorly_written_ruby(*arrays)
-  combined_array = []
-  arrays.each do |array|
-    array.each do |value|
-      combined_array << value
-    end
-  end
+# This method takes n arrays as input and combine them in sorted ascending order
+def quick_sort(array)
 
-  sorted_array = [combined_array.delete_at(combined_array.length-1)]
+  return [] if array.empty?
+      pivot = array.shift;
+      low = []
+      high = []
+      array.each do |i|
 
-  for val in combined_array
-    i = 0
-    while i < sorted_array.length
-      if val <= sorted_array[i]
-        sorted_array.insert(i, val)
-        break
-      elsif i == sorted_array.length - 1
-        sorted_array << val
-        break
+        if i <= pivot
+          low.push(i)
+        else
+          high.push(i)
+        end
       end
-      i+=1
-    end
-  end
+      return quick_sort(low) + [pivot] + quick_sort(high)
 
-  # Return the sorted array
-  sorted_array
+end
+
+def poorly_written_ruby(*arrays)
+  combined_array = arrays.flatten
+
+  quick_sort(combined_array)
+
 end

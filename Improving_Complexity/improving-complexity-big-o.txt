@@ -1,7 +1,7 @@
 #This file contains the Big-O explanations of the following code version improvements: 1.Code complexity, 2. time complexity, and 3. space complexity.
 
-1) The Big-O of this version, seeking to improve code complexity, is _____ because ______.
+1) The Big-O of this version, seeking to improve code complexity, is O(n^2) because we have a loop within a loop, and each loop has an O(n), and O(n) * O(n) is equal to O(n^2).
 
-2) The Big-O of this version, seeking to improve time complexity, is _____ because ______.
+2) The Big-O of this version, seeking to improve time complexity, is O(n log(n)). To put one thing in a heap takes log(n) time, and we will do that n times. In total, that will equate to n*log(n) time to put all elements in the heap; it is the same time to take things out of the heap.
 
-1) The Big-O of this version, seeking to improve space complexity, is _____ because ______.
+3) The Big-O of this version, is seeking to improve space complexity. The time complexity is O(n^2) because we are applying two recursive calls, which both call two additional actions resulting in n^2 actions. The space complexity of quicksort in general is O(log(n))
